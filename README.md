@@ -29,7 +29,7 @@
 ### 加了强化VPS安全的iptable规则代码，反扫描，拉黑IP,10个月，反攻击；
 ### Generates random server port &UUID&alterID
 
-#bash <(curl -Ls https://raw.githubusercontent.com/mikewubox/v2ray/master/mkcp/install.sh)
+#bash <(curl -Ls https://raw.githubusercontent.com/jimben526/v2ray/master/mkcp/install.sh)
 
 
 查看V2配置 #cat ./v2ray_info.txt
@@ -46,7 +46,7 @@ VPS重启后，iptables安全代码会复原失效，可手动建立本地文件
 
 v2ray4.27版客户端版本，能兼容老版本和4.27版服务器
 
-对应的v2rayN3.21版 win64 客户端 https://github.com/mikewubox/v2ray/tree/master/v2rayn321
+对应的v2rayN3.21版 win64 客户端 https://github.com/jimben526/v2ray/tree/master/v2rayn321
            
 v2rayN  作者网址  https://github.com/2dust/v2rayN/releases
 
@@ -59,18 +59,18 @@ v2rayN  作者网址  https://github.com/2dust/v2rayN/releases
 ### 重点--安装完毕后设置cloudflare白名单防火墙，杜绝非法扫描及访问。
 
 
-#bash <(curl -L -s https://raw.githubusercontent.com/mikewubox/v2ray/master/install.sh) | tee v2ray_ins.log
+#bash <(curl -L -s https://raw.githubusercontent.com/jimben526/v2ray/master/install.sh) | tee v2ray_ins.log
 
 查看配置 cat ./v2ray_info.txt
 
 ## v2ray4.25或4.27独立版单独安装，无配置（V2fly大神们认为VMESS已不安全，大家用不用自定）
-#wget  https://raw.githubusercontent.com/mikewubox/v2ray/master/go.sh
+#wget  https://raw.githubusercontent.com/jimben526/v2ray/master/go.sh
 
-#wget  https://github.com/mikewubox/v2ray/raw/master/v2ray425/v2ray-linux-64.zip   ##安装4.25版##
+#wget  https://github.com/jimben526/v2ray/raw/master/v2ray425/v2ray-linux-64.zip   ##安装4.25版##
 
 或
 
-#wget  https://github.com/mikewubox/v2ray/raw/master/v2ray427/v2ray-linux-64.zip   ##安装4.27版##
+#wget  https://github.com/jimben526/v2ray/raw/master/v2ray427/v2ray-linux-64.zip   ##安装4.27版##
     
 #chmod 777 go.sh
 
